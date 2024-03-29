@@ -273,8 +273,10 @@
          "packages": [
             "dash-bootstrap-components",
             "dash-python",
+            "docker",
             "flask",
             "gunicorn",
+            "heroku",
             "plotly-python",
             "portfolio",
             "selenium-python",
@@ -283,7 +285,7 @@
          "languages": [
             "Python"
          ],
-         "description": "A website portfolio crafted to showcase details about yourself, your projects, and your servers.",
+         "description": "A website portfolio crafted to showcase details about yourself, your servers, and your projects..",
          "url": "https://github.com/lxRbckl/Project-Fenaverat"
       },
       "Project-Hakkonen": {
