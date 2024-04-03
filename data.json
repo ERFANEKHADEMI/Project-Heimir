@@ -440,7 +440,7 @@
          "languages": [
             "Python"
          ],
-         "description": "Reconnect spontaneously disconnected Discord calls on Retina displays.",
+         "description": "Reconnect to dropped Discord calls on Retina displays.",
          "url": "https://github.com/lxRbckl/Project-RCoD"
       },
       "Project-Serra": {
