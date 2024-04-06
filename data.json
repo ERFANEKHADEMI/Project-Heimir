@@ -1,163 +1,4 @@
 {
-   "ala2q6": {
-      "ala2q6": {
-         "packages": [
-            "config",
-            "github-config"
-         ],
-         "languages": [
-            null
-         ],
-         "description": "Config files for my GitHub profile.",
-         "url": "https://github.com/ala2q6/ala2q6"
-      },
-      "CS201R-P1": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS201R: Project 1",
-         "url": "https://github.com/ala2q6/CS201R-P1"
-      },
-      "CS201R-P2": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS201R: Project 2",
-         "url": "https://github.com/ala2q6/CS201R-P2"
-      },
-      "CS201R-P3": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS201R: Project 3",
-         "url": "https://github.com/ala2q6/CS201R-P3"
-      },
-      "CS201R-P4": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS201R: Project 4",
-         "url": "https://github.com/ala2q6/CS201R-P4"
-      },
-      "CS201R-P5": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS201R: Project 5",
-         "url": "https://github.com/ala2q6/CS201R-P5"
-      },
-      "CS303-P1": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS303: Project 1",
-         "url": "https://github.com/ala2q6/CS303-P1"
-      },
-      "CS303-P2": {
-         "packages": [],
-         "languages": [
-            "C++"
-         ],
-         "description": "University of Missouri - Kansas City: CS303: Project 2",
-         "url": "https://github.com/ala2q6/CS303-P2"
-      },
-      "CS441-P2": {
-         "packages": [],
-         "languages": [
-            "Clojure"
-         ],
-         "description": "University of Missouri - Kansas City: CS441: Project 2",
-         "url": "https://github.com/ala2q6/CS441-P2"
-      },
-      "CS449-P": {
-         "packages": [],
-         "languages": [
-            null
-         ],
-         "description": "University of Missouri - Kansas City: CS449: Project",
-         "url": "https://github.com/ala2q6/CS449-P"
-      },
-      "CS456-P": {
-         "packages": [
-            "dash-python",
-            "gunicorn",
-            "plotly-python"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "University of Missouri - Kansas City: CS456: Project",
-         "url": "https://github.com/ala2q6/CS456-P"
-      },
-      "CS461-P1": {
-         "packages": [],
-         "languages": [
-            "Python"
-         ],
-         "description": "University of Missouri - Kansas City: CS461: Project 1",
-         "url": "https://github.com/ala2q6/CS461-P1"
-      },
-      "CS461-P2": {
-         "packages": [],
-         "languages": [
-            "Python"
-         ],
-         "description": "University of Missouri - Kansas City: CS461: Project 2",
-         "url": "https://github.com/ala2q6/CS461-P2"
-      },
-      "CS461-P3": {
-         "packages": [],
-         "languages": [
-            "Python"
-         ],
-         "description": "University of Missouri - Kansas City: CS461: Project 3",
-         "url": "https://github.com/ala2q6/CS461-P3"
-      },
-      "CS490DL-P": {
-         "packages": [
-            "cv2",
-            "dash-python",
-            "keras",
-            "matplotlib",
-            "multiprocessing",
-            "numpy",
-            "pandas",
-            "plotly-python",
-            "sklearn",
-            "tensorflow"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "University of Missouri - Kansas City: CS490 Deep Learning: Project",
-         "url": "https://github.com/ala2q6/CS490DL-P"
-      },
-      "HAR-S22": {
-         "packages": [
-            "cv2",
-            "dash-python",
-            "gunicorn",
-            "keras",
-            "matplotlib",
-            "numpy",
-            "pandas",
-            "plotly-python",
-            "sklearn",
-            "tensorflow"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "University of Missouri - Kansas City: Hack-A-Roo: Spring 2022",
-         "url": "https://github.com/ala2q6/HAR-S22"
-      }
-   },
    "lxRbckl": {
       "lxRbckl": {
          "packages": [
@@ -529,6 +370,165 @@
          ],
          "description": "Build a resume, fill in details about yourself.",
          "url": "https://github.com/lxRbckl/Resume-Template"
+      }
+   },
+   "ala2q6": {
+      "ala2q6": {
+         "packages": [
+            "config",
+            "github-config"
+         ],
+         "languages": [
+            null
+         ],
+         "description": "Config files for my GitHub profile.",
+         "url": "https://github.com/ala2q6/ala2q6"
+      },
+      "CS201R-P1": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 1",
+         "url": "https://github.com/ala2q6/CS201R-P1"
+      },
+      "CS201R-P2": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 2",
+         "url": "https://github.com/ala2q6/CS201R-P2"
+      },
+      "CS201R-P3": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 3",
+         "url": "https://github.com/ala2q6/CS201R-P3"
+      },
+      "CS201R-P4": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 4",
+         "url": "https://github.com/ala2q6/CS201R-P4"
+      },
+      "CS201R-P5": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 5",
+         "url": "https://github.com/ala2q6/CS201R-P5"
+      },
+      "CS303-P1": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS303: Project 1",
+         "url": "https://github.com/ala2q6/CS303-P1"
+      },
+      "CS303-P2": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS303: Project 2",
+         "url": "https://github.com/ala2q6/CS303-P2"
+      },
+      "CS441-P2": {
+         "packages": [],
+         "languages": [
+            "Clojure"
+         ],
+         "description": "University of Missouri - Kansas City: CS441: Project 2",
+         "url": "https://github.com/ala2q6/CS441-P2"
+      },
+      "CS449-P": {
+         "packages": [],
+         "languages": [
+            null
+         ],
+         "description": "University of Missouri - Kansas City: CS449: Project",
+         "url": "https://github.com/ala2q6/CS449-P"
+      },
+      "CS456-P": {
+         "packages": [
+            "dash-python",
+            "gunicorn",
+            "plotly-python"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS456: Project",
+         "url": "https://github.com/ala2q6/CS456-P"
+      },
+      "CS461-P1": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS461: Project 1",
+         "url": "https://github.com/ala2q6/CS461-P1"
+      },
+      "CS461-P2": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS461: Project 2",
+         "url": "https://github.com/ala2q6/CS461-P2"
+      },
+      "CS461-P3": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS461: Project 3",
+         "url": "https://github.com/ala2q6/CS461-P3"
+      },
+      "CS490DL-P": {
+         "packages": [
+            "cv2",
+            "dash-python",
+            "keras",
+            "matplotlib",
+            "multiprocessing",
+            "numpy",
+            "pandas",
+            "plotly-python",
+            "sklearn",
+            "tensorflow"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS490 Deep Learning: Project",
+         "url": "https://github.com/ala2q6/CS490DL-P"
+      },
+      "HAR-S22": {
+         "packages": [
+            "cv2",
+            "dash-python",
+            "gunicorn",
+            "keras",
+            "matplotlib",
+            "numpy",
+            "pandas",
+            "plotly-python",
+            "sklearn",
+            "tensorflow"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: Hack-A-Roo: Spring 2022",
+         "url": "https://github.com/ala2q6/HAR-S22"
       }
    }
 }
