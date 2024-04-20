@@ -210,7 +210,7 @@
             "dash-python",
             "discordpy",
             "fp",
-            "macos",
+            "macosx",
             "oop",
             "pillow",
             "plotly-python",
@@ -284,7 +284,7 @@
          "languages": [
             "Python"
          ],
-         "description": "A website portfolio crafted to showcase details about yourself, your servers, and your projects..",
+         "description": "A website portfolio crafted to showcase details about yourself, your servers, and your projects.",
          "url": "https://github.com/lxRbckl/Project-Fenaverat"
       },
       "Project-Hakkonen": {
@@ -441,18 +441,6 @@
          ],
          "description": "Reconnect to dropped Discord calls on Retina displays.",
          "url": "https://github.com/lxRbckl/Project-RCoD"
-      },
-      "Project-Serra": {
-         "packages": [
-            "dash-python",
-            "discordpy",
-            "plotly-python"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "Track your daily consumption through a Discord bot and present it visually.",
-         "url": "https://github.com/lxRbckl/Project-Serra"
       },
       "Project-Skotak": {
          "packages": [
