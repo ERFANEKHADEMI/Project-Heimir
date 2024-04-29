@@ -442,19 +442,6 @@
          "description": "Reconnect to dropped Discord calls on Retina displays.",
          "url": "https://github.com/lxRbckl/Project-RCoD"
       },
-      "Project-Skotak": {
-         "packages": [
-            "discordpy",
-            "portfolio",
-            "pygithub",
-            "requests-py"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "Fine-tune your portfolio settings using a Discord bot.",
-         "url": "https://github.com/lxRbckl/Project-Skotak"
-      },
       "Project-TeneT": {
          "packages": [
             "xlrd",
