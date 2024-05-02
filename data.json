@@ -217,6 +217,7 @@
             "poetry-python",
             "pyautogui",
             "ultralytics",
+            "unix",
             "yolov5"
          ],
          "languages": [
