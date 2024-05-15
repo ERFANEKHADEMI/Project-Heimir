@@ -492,18 +492,6 @@
          ],
          "description": "Get alerted when a Discord user starts typing in a specific Discord channel.",
          "url": "https://github.com/lxRbckl/Project-WS3K"
-      },
-      "Resume-Template": {
-         "packages": [
-            "dash-python",
-            "poetry-python",
-            "resume"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "Build a resume, fill in details about yourself.",
-         "url": "https://github.com/lxRbckl/Resume-Template"
       }
    }
 }
