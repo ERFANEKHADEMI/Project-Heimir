@@ -1,7 +1,10 @@
 {
    "projects" : {
       "exclude" : [
-         
+         "Project-AA1",
+         "Resume-Template",
+         "Project-Serra",
+         "Project-Skotak"
       ]
    }
 }
