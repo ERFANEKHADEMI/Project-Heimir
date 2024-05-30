@@ -178,9 +178,9 @@
             "pytest"
          ],
          "languages": [
-            "Python"
+            null
          ],
-         "description": "CRUD tools to enhance readability and abstraction in projects, for both local and remote file management.",
+         "description": "CRUD functionality to enhance readability and abstraction in projects, for both local and remote file management.",
          "url": "https://github.com/lxRbckl/lxRbckl"
       },
       "Project-Acta-Mea": {
