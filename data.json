@@ -183,6 +183,14 @@
          "description": "CRUD functionality to enhance readability and abstraction in projects, for both local and remote file management.",
          "url": "https://github.com/lxRbckl/lxRbckl"
       },
+      "Project-ACLG": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": null,
+         "url": "https://github.com/lxRbckl/Project-ACLG"
+      },
       "Project-Acta-Mea": {
          "packages": [
             "discordpy",
