@@ -166,7 +166,6 @@
             "git-hooks",
             "github-actions",
             "github-workflows",
-            "leetcode",
             "mocha",
             "npm",
             "npmrc",
@@ -174,8 +173,10 @@
             "oop",
             "openai",
             "package",
+            "portfolio",
             "pypi",
-            "pytest"
+            "pytest",
+            "typescript"
          ],
          "languages": [
             null
@@ -370,6 +371,14 @@
          ],
          "description": "Create daily backups of your GitHub projects to a local directory.",
          "url": "https://github.com/lxRbckl/Project-Kinma"
+      },
+      "Project-Manager": {
+         "packages": [],
+         "languages": [
+            null
+         ],
+         "description": null,
+         "url": "https://github.com/lxRbckl/Project-Manager"
       },
       "Project-Maximus": {
          "packages": [
