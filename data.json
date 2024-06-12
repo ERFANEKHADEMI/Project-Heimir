@@ -297,20 +297,6 @@
          "description": "A website portfolio crafted to showcase details about yourself, your servers, and your projects.",
          "url": "https://github.com/lxRbckl/Project-Fenaverat"
       },
-      "Project-Hakkonen": {
-         "packages": [
-            "dash-bootstrap-components",
-            "portfolio",
-            "pygithub",
-            "python-dash",
-            "python-plotly"
-         ],
-         "languages": [
-            "Python"
-         ],
-         "description": "Manage project feeds on your portfolio with a user interface.",
-         "url": "https://github.com/lxRbckl/Project-Hakkonen"
-      },
       "Project-Heimir": {
          "packages": [
             "discordpy",
