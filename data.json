@@ -1,0 +1,500 @@
+{
+   "lxRbckl": {
+      "lxRbckl": {
+         "packages": [
+            "chatgpt",
+            "fp",
+            "git-hooks",
+            "github-actions",
+            "github-workflows",
+            "mocha",
+            "npm",
+            "npmrc",
+            "octokit-js",
+            "oop",
+            "openai",
+            "package",
+            "portfolio",
+            "pypi",
+            "pytest",
+            "typescript"
+         ],
+         "languages": [
+            null
+         ],
+         "description": "CRUD functionality to enhance readability and abstraction in projects, for both local and remote file management.",
+         "url": "https://github.com/lxRbckl/lxRbckl"
+      },
+      "Project-ACLG": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": null,
+         "url": "https://github.com/lxRbckl/Project-ACLG"
+      },
+      "Project-Acta-Mea": {
+         "packages": [
+            "discordpy",
+            "docker",
+            "docker-swarm",
+            "git-hook",
+            "github-actions",
+            "github-workflows",
+            "kubernetes",
+            "octokit-js",
+            "pygithub"
+         ],
+         "languages": [
+            "JavaScript"
+         ],
+         "description": "Administer servers and services via a Discord bot utilizing a remote data file.",
+         "url": "https://github.com/lxRbckl/Project-Acta-Mea"
+      },
+      "Project-ASBC": {
+         "packages": [
+            "asyncio",
+            "bash",
+            "blink-camera",
+            "bluestacks",
+            "dash-python",
+            "discordpy",
+            "fp",
+            "macosx",
+            "oop",
+            "pillow",
+            "plotly-python",
+            "poetry-python",
+            "pyautogui",
+            "ultralytics",
+            "unix",
+            "yolov5"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Leverage automation and artificial intelligence for monitoring and object detection of Blink camera footage.",
+         "url": "https://github.com/lxRbckl/Project-ASBC"
+      },
+      "Project-Borg": {
+         "packages": [
+            "glob",
+            "matplotlib",
+            "xlrd",
+            "xlwt"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Conceptualize the data of biased roulette wheels.",
+         "url": "https://github.com/lxRbckl/Project-Borg"
+      },
+      "Project-Comperio": {
+         "packages": [
+            "discordpy",
+            "selenium-python",
+            "webdriver-manager",
+            "xlrd",
+            "xlutils",
+            "xlwt"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": " Visualize the connections between Instagram followers and their interrelationships.",
+         "url": "https://github.com/lxRbckl/Project-Comperio"
+      },
+      "Project-Domum": {
+         "packages": [
+            "asyncio",
+            "discordpy",
+            "raspberry-pi",
+            "rpi-gpio",
+            "suntime",
+            "ubuntu-server"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Manage power outlets by utilizing the GPIO pins of a Raspberry Pi.",
+         "url": "https://github.com/lxRbckl/Project-Domum"
+      },
+      "Project-Fenaverat": {
+         "packages": [
+            "dash-bootstrap-components",
+            "dash-python",
+            "docker",
+            "flask",
+            "gunicorn",
+            "heroku",
+            "plotly-python",
+            "portfolio",
+            "selenium-python",
+            "webdriver-manager"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "A website portfolio crafted to showcase details about yourself, your servers, and your projects.",
+         "url": "https://github.com/lxRbckl/Project-Fenaverat"
+      },
+      "Project-Heimir": {
+         "packages": [
+            "discordpy",
+            "docker",
+            "docker-swarm",
+            "git-hook",
+            "github-actions",
+            "github-workflows",
+            "node-cron",
+            "octokit-js",
+            "portfolio",
+            "pygithub",
+            "ubuntu-server"
+         ],
+         "languages": [
+            "JavaScript"
+         ],
+         "description": "Maintain currency of your portfolio database with consistent updates.",
+         "url": "https://github.com/lxRbckl/Project-Heimir"
+      },
+      "Project-JA": {
+         "packages": [
+            "discordjs",
+            "discordpy",
+            "docker",
+            "docker-swarm",
+            "git-hook",
+            "github-actions",
+            "github-workflows",
+            "node-cron",
+            "oop",
+            "openai",
+            "openai-api"
+         ],
+         "languages": [
+            "JavaScript"
+         ],
+         "description": "Interact with the mystical conch shell, engage in weekly conversation prompts, and delegate decision-making.",
+         "url": "https://github.com/lxRbckl/Project-JA"
+      },
+      "Project-Kinma": {
+         "packages": [
+            "asyncio",
+            "bash",
+            "crontab",
+            "discordjs",
+            "discordpy",
+            "docker",
+            "docker-swarm",
+            "node-cron",
+            "octokit-js",
+            "pygithub",
+            "strftime",
+            "ubuntu-server"
+         ],
+         "languages": [
+            "JavaScript"
+         ],
+         "description": "Create daily backups of your GitHub projects to a local directory.",
+         "url": "https://github.com/lxRbckl/Project-Kinma"
+      },
+      "Project-Manager": {
+         "packages": [],
+         "languages": [
+            "TypeScript"
+         ],
+         "description": null,
+         "url": "https://github.com/lxRbckl/Project-Manager"
+      },
+      "Project-Maximus": {
+         "packages": [
+            "crontab",
+            "dash-python",
+            "guvcview",
+            "plotly-python",
+            "raspberry-pi",
+            "rpi-gpio",
+            "ubuntu-desktop",
+            "wmctrl"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Use a Raspberry Pi to capture the live stream of a USB camera and manage relays all wrapped into a user interface.",
+         "url": "https://github.com/lxRbckl/Project-Maximus"
+      },
+      "Project-OGIWS": {
+         "packages": [
+            "python-dash",
+            "python-plotly",
+            "xlrd",
+            "xlwt"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Offset Graph by Individual Wheel Speed",
+         "url": "https://github.com/lxRbckl/Project-OGIWS"
+      },
+      "Project-Panavia": {
+         "packages": [
+            "dash-python",
+            "ipinfodb",
+            "plotly-python"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Create a model and develop a framework for data related to visual ballistics on roulette wheels.",
+         "url": "https://github.com/lxRbckl/Project-Panavia"
+      },
+      "Project-PasCam": {
+         "packages": [
+            "cryptojs",
+            "discordjs",
+            "discordpy",
+            "docker",
+            "docker-compose",
+            "git-hook",
+            "github-actions",
+            "github-workflows"
+         ],
+         "languages": [
+            "JavaScript"
+         ],
+         "description": "Encrypt and share passwords using a Discord bot.",
+         "url": "https://github.com/lxRbckl/Project-PasCam"
+      },
+      "Project-RCoD": {
+         "packages": [
+            "apple-automator",
+            "asyncio",
+            "bash",
+            "discordpy",
+            "git-hook",
+            "macos",
+            "oop",
+            "openai",
+            "opencv-python",
+            "poetry-python",
+            "pyautogui",
+            "python-requests"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Reconnect to dropped Discord calls on Retina displays.",
+         "url": "https://github.com/lxRbckl/Project-RCoD"
+      },
+      "Project-TeneT": {
+         "packages": [
+            "xlrd",
+            "xlutils",
+            "xlwt"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "A reverse Monte Carlo building simulation for visual ballistics on roulette wheels with RRS systems.",
+         "url": "https://github.com/lxRbckl/Project-TeneT"
+      },
+      "Project-UMKC": {
+         "packages": [
+            "asyncio",
+            "discordpy"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Get notified on Discord when your Zoom classes commence.",
+         "url": "https://github.com/lxRbckl/Project-UMKC"
+      },
+      "Project-VBR": {
+         "packages": [
+            "dash-bootstrap-components",
+            "dash-python",
+            "pandas",
+            "plotly-python"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Create a conceptual model for data from visual ballistics on roulette wheels",
+         "url": "https://github.com/lxRbckl/Project-VBR"
+      },
+      "Project-WS3K": {
+         "packages": [
+            "asyncio",
+            "discordpy",
+            "headless",
+            "selenium-python",
+            "webdriver-manager"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "Get alerted when a Discord user starts typing in a specific Discord channel.",
+         "url": "https://github.com/lxRbckl/Project-WS3K"
+      }
+   },
+   "ala2q6": {
+      "ala2q6": {
+         "packages": [
+            "config",
+            "github-config"
+         ],
+         "languages": [
+            null
+         ],
+         "description": "Config files for my GitHub profile.",
+         "url": "https://github.com/ala2q6/ala2q6"
+      },
+      "CS201R-P1": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 1",
+         "url": "https://github.com/ala2q6/CS201R-P1"
+      },
+      "CS201R-P2": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 2",
+         "url": "https://github.com/ala2q6/CS201R-P2"
+      },
+      "CS201R-P3": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 3",
+         "url": "https://github.com/ala2q6/CS201R-P3"
+      },
+      "CS201R-P4": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 4",
+         "url": "https://github.com/ala2q6/CS201R-P4"
+      },
+      "CS201R-P5": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS201R: Project 5",
+         "url": "https://github.com/ala2q6/CS201R-P5"
+      },
+      "CS303-P1": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS303: Project 1",
+         "url": "https://github.com/ala2q6/CS303-P1"
+      },
+      "CS303-P2": {
+         "packages": [],
+         "languages": [
+            "C++"
+         ],
+         "description": "University of Missouri - Kansas City: CS303: Project 2",
+         "url": "https://github.com/ala2q6/CS303-P2"
+      },
+      "CS441-P2": {
+         "packages": [],
+         "languages": [
+            "Clojure"
+         ],
+         "description": "University of Missouri - Kansas City: CS441: Project 2",
+         "url": "https://github.com/ala2q6/CS441-P2"
+      },
+      "CS449-P": {
+         "packages": [],
+         "languages": [
+            null
+         ],
+         "description": "University of Missouri - Kansas City: CS449: Project",
+         "url": "https://github.com/ala2q6/CS449-P"
+      },
+      "CS456-P": {
+         "packages": [
+            "dash-python",
+            "gunicorn",
+            "plotly-python"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS456: Project",
+         "url": "https://github.com/ala2q6/CS456-P"
+      },
+      "CS461-P1": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS461: Project 1",
+         "url": "https://github.com/ala2q6/CS461-P1"
+      },
+      "CS461-P2": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS461: Project 2",
+         "url": "https://github.com/ala2q6/CS461-P2"
+      },
+      "CS461-P3": {
+         "packages": [],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS461: Project 3",
+         "url": "https://github.com/ala2q6/CS461-P3"
+      },
+      "CS490DL-P": {
+         "packages": [
+            "cv2",
+            "dash-python",
+            "keras",
+            "matplotlib",
+            "multiprocessing",
+            "numpy",
+            "pandas",
+            "plotly-python",
+            "sklearn",
+            "tensorflow"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: CS490 Deep Learning: Project",
+         "url": "https://github.com/ala2q6/CS490DL-P"
+      },
+      "HAR-S22": {
+         "packages": [
+            "cv2",
+            "dash-python",
+            "gunicorn",
+            "keras",
+            "matplotlib",
+            "numpy",
+            "pandas",
+            "plotly-python",
+            "sklearn",
+            "tensorflow"
+         ],
+         "languages": [
+            "Python"
+         ],
+         "description": "University of Missouri - Kansas City: Hack-A-Roo: Spring 2022",
+         "url": "https://github.com/ala2q6/HAR-S22"
+      }
+   }
+}

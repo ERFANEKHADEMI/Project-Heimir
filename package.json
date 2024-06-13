@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lxRbckl/Project-Heimir#readme",
   "dependencies": {
-    "lxrbckl": "^8.8.0"
+    "lxrbckl": "^8.8.2"
   }
 }
