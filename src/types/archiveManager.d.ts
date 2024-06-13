@@ -5,18 +5,24 @@
 
 
 // interfaces <
-export interface Repo {
+export interface ArchiveElement {
 
-   name?: string;
    topics: string[];
    private: boolean;
+   languages: string[];
    description: string;
-   languages_url: strin;
 
 }
 export interface Archive {
 
-   [key: string] : Repo;
+   [key: string] : ArchiveElement;
+
+}
+
+export interface Repo extends ArchiveElement {
+
+   full_name: string;
+   languages_url: string;
 
 }
 

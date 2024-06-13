@@ -14,7 +14,6 @@ const lxrbckl_1 = require("lxrbckl");
 // >
 class archiveManager {
     constructor(octokitOwner, octokitToken, githubUsersLink, octokitConfigLink) {
-        this._archive = {};
         this._octokitOwner = octokitOwner;
         this._octokitToken = octokitToken;
         this._githubUsersLink = githubUsersLink;
@@ -23,13 +22,38 @@ class archiveManager {
     }
     getArchive() {
         return __awaiter(this, void 0, void 0, function* () {
-            let users = yield (0, lxrbckl_1.axiosGet)(this._githubUsersLink);
-            users.map((u) => __awaiter(this, void 0, void 0, function* () {
+            // test 0
+            // var archive: Archive = {};
+            // let users: string[] = ['lxRbckl']; // remove
+            // // let users: string[] = await axiosGet(this._githubUsersLink);
+            // users.map(async (u: string) => {
+            //    let route: string = `GET /users/${u}/repos`;
+            //    (await this._octokit.request(route)).map(async (repo: Repo) => {
+            //       archive[repo.name] = {
+            //          topics : repo.topics,
+            //          private : repo.private,
+            //          description : repo.description,
+            //          languages : Object.keys(await axiosGet(repo.languages_url))
+            //       };
+            //    });
+            // });
+            // console.log(archive); // remove
+            // test 1
+            var archive = {};
+            let users = ['lxRbckl']; // replace
+            yield Promise.all(users.map((u) => __awaiter(this, void 0, void 0, function* () {
                 let route = `GET /users/${u}/repos`;
-                (yield this._octokit.request(route)).map((repo) => {
-                    this._archive[repo.name] = {};
-                });
-            }));
+                let repos = yield this._octokit.request(route);
+                yield Promise.all(repos.map((repo) => __awaiter(this, void 0, void 0, function* () {
+                    archive[repo.full_name] = {
+                        topics: repo.topics,
+                        private: repo.private,
+                        description: repo.description,
+                        languages: Object.keys(yield (0, lxrbckl_1.axiosGet)(repo.languages_url))
+                    };
+                })));
+            })));
+            console.log(archive); // remove
         });
     }
     setArchive() {
