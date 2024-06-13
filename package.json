@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxRbckl/Project-Heimir.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxRbckl/Project-Heimir/issues"
+  },
+  "homepage": "https://github.com/lxRbckl/Project-Heimir#readme",
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "lxrbckl": "^6.4.0",
-    "node-cron": "^3.0.3",
-    "octokit": "^3.1.2"
+    "lxrbckl": "^8.8.0"
   }
 }
