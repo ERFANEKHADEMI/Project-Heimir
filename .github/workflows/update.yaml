@@ -33,6 +33,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Compile to JS
+        uses: npm run compile
+
       - name: Setup QEMU
         uses: docker/setup-qemu-action@v3
 

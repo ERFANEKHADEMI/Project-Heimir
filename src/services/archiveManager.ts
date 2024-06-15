@@ -5,7 +5,7 @@ import { Repo, Archive, OctokitConfig } from '../types/archiveManager';
 // >
 
 
-class archiveManager {
+export default class archiveManager {
 
 
    private _octokit: ocotkit;
@@ -65,7 +65,7 @@ class archiveManager {
    }
 
 
-   async setArchive(archive: any) {
+   async setArchive(archive: Archive) {
 
       let config: OctokitConfig = await axiosGet(this._octokitConfigLink);
       
@@ -81,22 +81,3 @@ class archiveManager {
    }
 
 }
-
-
-
-
-(async () => {
-
-   let x = new archiveManager(
-
-      'lxRbckl',
-      '',
-      'https://raw.githubusercontent.com/lxRbckl/Project-Heimir/Project-Heimir-2/src/data/githubUsers.json',
-      'https://raw.githubusercontent.com/lxRbckl/Project-Heimir/Project-Heimir-2/src/data/octokitConfig.json'
-
-   );
-
-   // let a: Archive = await x.getArchive();
-   // await x.setArchive(['demo']);
-
-})();

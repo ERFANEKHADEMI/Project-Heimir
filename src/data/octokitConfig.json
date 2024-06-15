@@ -1,7 +1,7 @@
 {
    
-   "file" : "src/data/repositoryArchive.json",
    "branch" : "Project-Heimir-2",
-   "repository" : "Project-Heimir"
+   "repository" : "Project-Heimir",
+   "file" : "src/data/repositoryArchive.json"
 
 }
