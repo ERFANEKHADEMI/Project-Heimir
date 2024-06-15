@@ -25,7 +25,7 @@ jobs:
 
           if [ "$commitMessage" != "Update" ]; then
 
-             echo "Cancelling Workflow.";
+             echo "Strictly told not to update.";
              exit 1;
 
           fi
