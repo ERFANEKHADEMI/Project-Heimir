@@ -35,6 +35,22 @@ export default class archiveManager {
    }
 
 
+   async setArchive(archive: Archive) {
+
+      let config: OctokitConfig = await axiosGet(this._octokitConfigLink);
+      
+      await this._octokit.respositorySet(
+
+         archive,
+         config['file'],
+         config['branch'],
+         config['repository']
+
+      );
+      
+   }
+
+
    async getArchive(): Promise<Archive> {
 
       var archive: Archive = {};
@@ -62,22 +78,6 @@ export default class archiveManager {
 
       return archive;
 
-   }
-
-
-   async setArchive(archive: Archive) {
-
-      let config: OctokitConfig = await axiosGet(this._octokitConfigLink);
-      
-      await this._octokit.respositorySet(
-
-         archive,
-         config['file'],
-         config['branch'],
-         config['repository']
-
-      );
-      
    }
 
 }
