@@ -33,6 +33,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Create /dist
+        run: mkdir dist
+
       - name: Compile to JS
         run: npm run compile
 
