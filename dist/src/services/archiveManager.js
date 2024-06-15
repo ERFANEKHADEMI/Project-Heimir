@@ -22,49 +22,34 @@ class archiveManager {
     }
     getArchive() {
         return __awaiter(this, void 0, void 0, function* () {
-            // test 0
-            // var archive: Archive = {};
-            // let users: string[] = ['lxRbckl']; // remove
-            // // let users: string[] = await axiosGet(this._githubUsersLink);
-            // users.map(async (u: string) => {
-            //    let route: string = `GET /users/${u}/repos`;
-            //    (await this._octokit.request(route)).map(async (repo: Repo) => {
-            //       archive[repo.name] = {
-            //          topics : repo.topics,
-            //          private : repo.private,
-            //          description : repo.description,
-            //          languages : Object.keys(await axiosGet(repo.languages_url))
-            //       };
-            //    });
-            // });
-            // console.log(archive); // remove
-            // test 1
             var archive = {};
-            let users = ['lxRbckl']; // replace
-            yield Promise.all(users.map((u) => __awaiter(this, void 0, void 0, function* () {
-                let route = `GET /users/${u}/repos`;
-                let repos = yield this._octokit.request(route);
-                yield Promise.all(repos.map((repo) => __awaiter(this, void 0, void 0, function* () {
+            let users = yield (0, lxrbckl_1.axiosGet)(this._githubUsersLink);
+            for (const u of users) {
+                let routeRepos = `GET /users/${u}/repos`;
+                let repos = yield this._octokit.request(routeRepos);
+                for (const repo of repos) {
+                    let routeLanguages = `GET /repos/${u}/${repo.name}/languages`;
+                    let languages = yield this._octokit.request(routeLanguages);
                     archive[repo.full_name] = {
                         topics: repo.topics,
-                        private: repo.private,
                         description: repo.description,
-                        languages: Object.keys(yield (0, lxrbckl_1.axiosGet)(repo.languages_url))
+                        languages: Object.keys(languages),
+                        url: `https://github.com/${u}/${repo.name}`
                     };
-                })));
-            })));
-            console.log(archive); // remove
+                }
+            }
+            return archive;
         });
     }
-    setArchive() {
+    setArchive(archive) {
         return __awaiter(this, void 0, void 0, function* () {
             let config = yield (0, lxrbckl_1.axiosGet)(this._octokitConfigLink);
-            yield this._octokit.respositorySet(this._archive, config['file'], config['branch'], config['repository']);
+            yield this._octokit.respositorySet(archive, config['file'], config['branch'], config['repository']);
         });
     }
 }
 (() => __awaiter(void 0, void 0, void 0, function* () {
     let x = new archiveManager('lxRbckl', '', 'https://raw.githubusercontent.com/lxRbckl/Project-Heimir/Project-Heimir-2/src/data/githubUsers.json', 'https://raw.githubusercontent.com/lxRbckl/Project-Heimir/Project-Heimir-2/src/data/octokitConfig.json');
-    x.getArchive();
-    // x.setArchive();
+    // let a: Archive = await x.getArchive();
+    // await x.setArchive(['demo']);
 }))();

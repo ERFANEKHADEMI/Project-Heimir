@@ -199,6 +199,14 @@
          "description": "Create daily backups of your GitHub projects to a local directory.",
          "url": "https://github.com/lxRbckl/Project-Kinma"
       },
+      "Project-Manager": {
+         "packages": [],
+         "languages": [
+            "TypeScript"
+         ],
+         "description": null,
+         "url": "https://github.com/lxRbckl/Project-Manager"
+      },
       "Project-Maximus": {
          "packages": [
             "crontab",

@@ -35,67 +35,43 @@ class archiveManager {
    }
 
 
-   async getArchive() {
+   async getArchive(): Promise<Archive> {
 
-      // test 0
-      // var archive: Archive = {};
-      // let users: string[] = ['lxRbckl']; // remove
-      // // let users: string[] = await axiosGet(this._githubUsersLink);
-      // users.map(async (u: string) => {
-
-      //    let route: string = `GET /users/${u}/repos`;
-      //    (await this._octokit.request(route)).map(async (repo: Repo) => {
-
-      //       archive[repo.name] = {
-
-      //          topics : repo.topics,
-      //          private : repo.private,
-      //          description : repo.description,
-      //          languages : Object.keys(await axiosGet(repo.languages_url))
-
-      //       };
-
-      //    });
-         
-
-      // });
-
-      // console.log(archive); // remove
-
-      // test 1
       var archive: Archive = {};
-      let users: string[] = ['lxRbckl']; // replace
-      await Promise.all(users.map(async (u: string) => {
+      let users: string[] = await axiosGet(this._githubUsersLink);
+      for (const u of users) {
 
-         let route: string = `GET /users/${u}/repos`;
-         let repos: Repo[] = await this._octokit.request(route);
-         await Promise.all(repos.map(async (repo: Repo) => {
+         let routeRepos: string = `GET /users/${u}/repos`;
+         let repos: Repo[] = await this._octokit.request(routeRepos);
+         for (const repo of repos) {
 
+            let routeLanguages: string = `GET /repos/${u}/${repo.name}/languages`;
+            let languages: string[] = await this._octokit.request(routeLanguages);
             archive[repo.full_name] = {
 
-               topics: repo.topics,
-               private: repo.private,
-               description: repo.description,
-               languages: Object.keys(await axiosGet(repo.languages_url))
+               topics : repo.topics,
+               description : repo.description,
+               languages : Object.keys(languages),
+               url : `https://github.com/${u}/${repo.name}`
 
             };
 
-         }));
+         }
 
-      }));
+      }
 
-      console.log(archive); // remove
+      return archive;
 
    }
 
 
-   async setArchive() {
+   async setArchive(archive: any) {
 
       let config: OctokitConfig = await axiosGet(this._octokitConfigLink);
       
       await this._octokit.respositorySet(
 
-         this._archive,
+         archive,
          config['file'],
          config['branch'],
          config['repository']
@@ -120,7 +96,7 @@ class archiveManager {
 
    );
 
-   x.getArchive();
-   // x.setArchive();
+   // let a: Archive = await x.getArchive();
+   // await x.setArchive(['demo']);
 
 })();

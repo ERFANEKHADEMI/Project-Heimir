@@ -7,8 +7,8 @@
 // interfaces <
 export interface ArchiveElement {
 
+   url: string;
    topics: string[];
-   private: boolean;
    languages: string[];
    description: string;
 
@@ -21,6 +21,7 @@ export interface Archive {
 
 export interface Repo extends ArchiveElement {
 
+   name: string;
    full_name: string;
    languages_url: string;
 
