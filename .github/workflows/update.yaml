@@ -5,7 +5,7 @@ on:
   push:
     branches:
 
-      - Project-Heimir-2
+      - V2
 
 
 jobs:
