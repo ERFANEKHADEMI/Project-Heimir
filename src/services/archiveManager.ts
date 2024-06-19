@@ -1,5 +1,5 @@
 // imports <
-import { ocotkit, axiosGet } from 'lxrbckl';
+import { octokit, axiosGet } from 'lxrbckl';
 import { Repo, Archive, OctokitConfig } from '../types/archiveManager';
 
 // >
@@ -8,7 +8,7 @@ import { Repo, Archive, OctokitConfig } from '../types/archiveManager';
 export default class archiveManager {
 
 
-   private _octokit: ocotkit;
+   private _octokit: octokit;
 
    private _octokitOwner: string;
    private _octokitToken: string;
@@ -30,7 +30,7 @@ export default class archiveManager {
       this._githubUsersLink = githubUsersLink;
       this._octokitConfigLink = octokitConfigLink;
 
-      this._octokit = new ocotkit(this._octokitToken, this._octokitOwner);
+      this._octokit = new octokit(this._octokitToken, this._octokitOwner);
 
    }
 

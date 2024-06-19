@@ -18,7 +18,7 @@
   "homepage": "https://github.com/lxRbckl/Project-Heimir#readme",
   "dependencies": {
     "@types/node": "^20.14.2",
-    "lxrbckl": "^8.8.2",
+    "lxrbckl": "^8.9.6",
     "node-cron": "^3.0.3"
   }
 }
