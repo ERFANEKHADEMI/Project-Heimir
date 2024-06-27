@@ -13,6 +13,8 @@
 [**`GitHub`**](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/README.md)
 [`github actions`](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/github-actions.md)
 [`github workflows`](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/github-workflows.md)
+[**`Git`**](https://github.com/lxRbckl/lxRbckl/blob/main/Git/README.md)
+[`git-hooks`](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/git-hooks.md)
 [**`Linux`**](https://github.com/lxRbckl/lxRbckl/blob/main/Linux/README.md)
 
 #
