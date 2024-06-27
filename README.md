@@ -3,16 +3,16 @@
 
 ---
 
-[**`TypeScript`**]()
-[`octokit/rest`]()
-[`node-cron`]()
-[`axios`]()
-[**`Docker`**]()
-[`docker-compose`]()
-[`docker-swarm`]()
-[**`GitHub`**]()
-[`github actions`]()
-[`github workflows`]()
-[**`Linux`**]()
+[**`TypeScript`**](https://github.com/lxRbckl/lxRbckl/blob/main/TypeScript/README.md)
+[`@octokit rest`](https://github.com/lxRbckl/lxRbckl/blob/main/TypeScript/@octokit-rest.md)
+[`node-cron`](https://github.com/lxRbckl/lxRbckl/blob/main/TypeScript/node-cron.md)
+[`axios`](https://github.com/lxRbckl/lxRbckl/blob/main/TypeScript/axios.md)
+[**`Docker`**](https://github.com/lxRbckl/lxRbckl/blob/main/Docker/README.md)
+[`docker-compose`](https://github.com/lxRbckl/lxRbckl/blob/main/Docker/docker-compose.md)
+[`docker-swarm`](https://github.com/lxRbckl/lxRbckl/blob/main/Docker/docker-swarm.md)
+[**`GitHub`**](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/README.md)
+[`github actions`](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/github-actions.md)
+[`github workflows`](https://github.com/lxRbckl/lxRbckl/blob/main/GitHub/github-workflows.md)
+[**`Linux`**](https://github.com/lxRbckl/lxRbckl/blob/main/Linux/README.md)
 
-# 
+#
