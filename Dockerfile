@@ -15,4 +15,4 @@ COPY . .
 RUN npm install
 
 
-CMD ["node", "app.js"]
+CMD ["node", "dist/app.js"]
