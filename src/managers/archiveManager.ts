@@ -5,6 +5,7 @@ import archiveConfig from '../config/archiveManagerConfig';
 import { 
 
    Archive,
+   SetArchiveParams,
    ConstructorParams
 
 } from '../types/archiveManager';
@@ -38,7 +39,7 @@ export default class archiveManager {
    }
 
 
-   async setArchive(archive: Archive) {
+   async setArchive({archive}: SetArchiveParams) {
       
       await this._octokit.respositorySet({
 

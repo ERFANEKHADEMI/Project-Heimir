@@ -12,29 +12,11 @@ export interface ConstructorParams {
 }
 
 
-export interface ArchiveElement {
+export interface SetArchiveParams {
 
-   url: string;
-   topics: string[];
-   languages: string[];
-   description: string;
+   archive: Archive;
 
 }
-
-// export interface Archive {
-
-//    [key: string] : ArchiveElement;
-
-// }
-
-// export interface Repo extends ArchiveElement {
-
-//    name: string;
-//    full_name: string;
-//    languages_url: string;
-
-// }
-
 
 
 export interface Repository {

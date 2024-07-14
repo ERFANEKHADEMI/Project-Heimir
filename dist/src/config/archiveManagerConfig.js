@@ -3,12 +3,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // >
 const archiveManagerConfig = {
-    branch: 'V2',
-    owner: 'lxRbckl',
-    repository: 'Project-Heimir',
-    file: 'data/repositoryArchive.json',
-    token: '',
-    urlGitHubUsers: ''
+    file: process.env.archiveFile,
+    owner: process.env.archiveOwner,
+    token: process.env.octokitToken,
+    branch: process.env.archiveBranch,
+    repository: process.env.archiveRepository,
+    urlGitHubUsers: process.env.urlGitHubUsers
 };
 // export <
 exports.default = archiveManagerConfig;

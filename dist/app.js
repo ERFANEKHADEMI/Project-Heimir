@@ -15,16 +15,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 // import <
 const cron = require('node-cron');
+const lxrbckl_1 = require("lxrbckl");
 const archiveManager_1 = __importDefault(require("./src/managers/archiveManager"));
+const archiveManagerConfig_1 = __importDefault(require("./src/config/archiveManagerConfig"));
 //
 (() => __awaiter(void 0, void 0, void 0, function* () {
     const archiveHandler = new archiveManager_1.default({
-        // githubUsers : await axiosGet(archiveConfig.urlGitHubUsers)
-        githubUsers: ['lxRbckl', 'ala2q6']
+        githubUsers: yield (0, lxrbckl_1.axiosGet)(archiveManagerConfig_1.default.urlGitHubUsers)
     });
-    yield archiveHandler.setArchive(yield archiveHandler.getArchive());
+    const archive = yield archiveHandler.getArchive();
+    yield archiveHandler.setArchive({ archive: archive });
     // cron.schedule('0 0 * * *', async () => {
-    //    let archive: Archive = await archiver.getArchive();
-    //    await archiver.setArchive(archive);
     // });
 }))();

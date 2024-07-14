@@ -24,8 +24,8 @@ class archiveManager {
             token: archiveManagerConfig_1.default.token
         });
     }
-    setArchive(archive) {
-        return __awaiter(this, void 0, void 0, function* () {
+    setArchive(_a) {
+        return __awaiter(this, arguments, void 0, function* ({ archive }) {
             yield this._octokit.respositorySet({
                 data: archive,
                 file: archiveManagerConfig_1.default.file,
