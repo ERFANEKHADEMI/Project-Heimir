@@ -2,10 +2,11 @@ FROM node:19.5.0
 
 
 # referencing docker compose <
-ENV owner ${owner}
-ENV tokenOctokit ${tokenOctokit}
-ENV linkGithubUsers ${linkGithubUsers}
-ENV linkOctokitConfig ${linkOctokitConfig}
+ENV octokitFile ${octokitFile}
+ENV octokitToken ${octokitToken}
+ENV octokitOwner ${octokitOwner}
+ENV octokitBranch ${octokitBranch}
+ENV urlGitHubUsers ${linkGithubUsers}
 
 # >
 

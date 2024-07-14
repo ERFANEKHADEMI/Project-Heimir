@@ -3,38 +3,30 @@
 
 // import <
 const cron = require('node-cron');
+import { axiosGet } from 'lxrbckl';
 
-import { Archive } from './src/types/archiveManager';
-import archiveManager from './src/services/archiveManager';
+import archiveManager from './src/managers/archiveManager';
+import archiveConfig from './src/config/archiveManagerConfig';
 
 //
 
 
-// env <
-const owner: string = process.env.owner!;
-const tokenOctokit: string = process.env.tokenOctokit!;
-const linkGithubUsers: string = process.env.linkGithubUsers!;
-const linkOctokitConfig: string = process.env.linkOctokitConfig!;
-
-// >
-
-
 (async () => {
 
-   var archiver: archiveManager = new archiveManager(
+   const archiveHandler: archiveManager = new archiveManager({
 
-      owner,
-      tokenOctokit,
-      linkGithubUsers,
-      linkOctokitConfig
-
-   );
-
-   cron.schedule('0 0 * * *', async () => {
-
-      let a: Archive = await archiver.getArchive();
-      await archiver.setArchive(a);
+      // githubUsers : await axiosGet(archiveConfig.urlGitHubUsers)
+      githubUsers : ['lxRbckl', 'ala2q6']
 
    });
+
+   await archiveHandler.setArchive(await archiveHandler.getArchive());
+
+   // cron.schedule('0 0 * * *', async () => {
+
+   //    let archive: Archive = await archiver.getArchive();
+   //    await archiver.setArchive(archive);
+
+   // });
 
 })();
