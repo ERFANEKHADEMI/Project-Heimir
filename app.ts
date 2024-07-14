@@ -14,19 +14,24 @@ import archiveConfig from './src/config/archiveManagerConfig';
 
 (async () => {
 
-   const archiveHandler: archiveManager = new archiveManager({
+   cron.schedule('0 0 * * *', async () => {
 
-      githubUsers : await axiosGet(archiveConfig.urlGitHubUsers)
+      // initialize object <
+      const archiveHandler: archiveManager = new archiveManager({
+
+         githubUsers : await axiosGet(archiveConfig.urlGitHubUsers)
+   
+      });
+
+      // >
+   
+      // build archive <
+      // publish archive <
+      const archive: Archive = await archiveHandler.getArchive();
+      await archiveHandler.setArchive({archive : archive});
+
+      // >
 
    });
-
-   const archive: Archive = await archiveHandler.getArchive();
-   await archiveHandler.setArchive({archive : archive});
-
-   // cron.schedule('0 0 * * *', async () => {
-
-
-
-   // });
 
 })();
